@@ -1,0 +1,57 @@
+form {
+  width: 900px;
+  padding: 20px;
+  border:2px solid grey;
+  
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.radio-group input,
+.checkbox-group input {
+  display: inline;
+  width: auto;
+}
+
+.radio-group label,
+.checkbox-group label {
+  display: block;
+}
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Green color for both buttons */
+.reset-btn,
+.submit-btn {
+  background-color: green;
+  color: white;
+}
+
+/* Hover effect (optional) */
+.reset-btn:hover,
+.submit-btn:hover {
+  background-color: darkgreen;
+}
+.reset-btn {
+  margin-right: 10px;
+}
+.title{
+    text-align: center;
+    color: green;
+}
